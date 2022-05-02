@@ -35,19 +35,15 @@ const Scoreboard = () => {
               return typeof game === "string" ? (
                 game
               ) : (
-                <>
-                  <tr index={key}>
-                    <td>
-                      {capitalizeFirstLetter(game?.yourChoice.toLowerCase())}
-                    </td>
-                    <td>
-                      {capitalizeFirstLetter(
-                        game?.computerChoice.toLowerCase()
-                      )}
-                    </td>
-                    <td>{game?.result.toLowerCase()}</td>
-                  </tr>
-                </>
+                <tr key={key}>
+                  <td>
+                    {capitalizeFirstLetter(game?.yourChoice.toLowerCase())}
+                  </td>
+                  <td>
+                    {capitalizeFirstLetter(game?.computerChoice.toLowerCase())}
+                  </td>
+                  <td>{game?.result.toLowerCase()}</td>
+                </tr>
               );
             })}
           </tbody>

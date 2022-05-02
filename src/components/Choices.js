@@ -57,7 +57,7 @@ const Choices = () => {
               return (
                 <div
                   className="col-md-2 col-4"
-                  index={key}
+                  key={key}
                   onClick={() => handleSelection(choices)}
                 >
                   {choices?.name}

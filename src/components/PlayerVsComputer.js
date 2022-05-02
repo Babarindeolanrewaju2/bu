@@ -72,7 +72,7 @@ const Emoji = styled.p`
 //   margin-bottom: 10px;
 // `;
 
-const Result = styled.p`
+const Result = styled.div`
   background-color: lightblue;
   width: 300px;
   padding: 10px;
