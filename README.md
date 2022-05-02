@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Runs the command above, in the root folder where package.json is located, to install all the dependencies
+Download the project and run the command above, in the root folder where package.json is located, to install all the dependencies
 
 ### `npm start`
 
